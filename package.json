@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": ".DS_STORE node_modules scripts/flow/*/.flowconfig .flowconfig *~ *.pyc .grunt _SpecRunner.html __benchmarks__ build/ remote-repo/ coverage/ .module-cache fixtures/dom/public/react-dom.js fixtures/dom/public/react.js test/the-files-to-test.generated.js *.log* chrome-user-data *.sublime-project *.sublime-workspace .idea *.iml .vscode *.swp *.swo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollozov/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollozov/blog/issues"
+  },
+  "homepage": "https://github.com/pollozov/blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
