@@ -40,6 +40,7 @@ export const getOne = async (req, res) => {
             {
                 returnDocument: 'after',
             })
+            .populate('user')
             .then((doc, err) => {
                 if (err) {
                     console.log('Error', err);
